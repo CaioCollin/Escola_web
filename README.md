@@ -2,8 +2,7 @@
 site criado com php puro.
 
 ## um gif do projeto : 
-
-
+![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/126752400/222794323-2f43b163-24c2-4d50-afb4-251161b40ad3.gif)
 
 Oque o site é o site :
 Projeto desenvolvido para uma escola que eu mesmo criei com o nome de MONT BLANC a onde o meu site tem uma acessibilidade a pessoa com a deficiência auditiva o  intuito do site a fazer uma redação conatdo com foi suas férias,
