@@ -1,5 +1,6 @@
 # Escola_web
 site criado com php puro.
+O projeto foi apresentado em sala de aula para universidade(Braz Cubas - Ciência da Computação ) e para equipe da Apae.
 
 ## um gif do projeto : 
 ![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/126752400/222794323-2f43b163-24c2-4d50-afb4-251161b40ad3.gif)
