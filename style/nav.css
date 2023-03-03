@@ -1,0 +1,57 @@
+.img1{
+    position:static;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    object-fit: contain;
+    border-radius: 10px; 
+}
+
+.animate__animated.animate__bounce{
+    --animate-duration: 1s;
+}
+
+/* navbar */
+.navbar-brand{
+    color: black;
+}
+
+.collapse a:hover{
+    transition:0.5s;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+/* header masthead */
+.ptop{
+    font-family: 'Edu QLD Beginner', cursive;
+}
+
+/*imagens*/
+#imgCartaz{
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.pTitle{
+    font-weight: 800;
+    font-size: 17px;
+}
+
+.ptext{
+    margin-top: 5%;
+    font-weight: 200;
+}
+
+/* hovers de todos */
+.navbar-brand:hover{
+    color: blue;
+}
+

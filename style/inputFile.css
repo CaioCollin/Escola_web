@@ -1,0 +1,24 @@
+#file{
+  color: transparent;
+  margin-left: 180px;
+}
+
+#file::-webkit-file-upload-button {
+  display: none;
+}
+
+#file::before{
+    content: 'Enviar arquivo foto';
+    display: inline-block;
+    background: -webkit-linear-gradient(top,rgb(235, 12, 12), rgb(230, 33, 26));
+    color: white;
+    border-radius: 8px;  
+    padding: 10px;
+    font-size: 15px;
+    outline: none;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    cursor: pointer;
+    
+}
+

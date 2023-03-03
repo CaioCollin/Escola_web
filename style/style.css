@@ -1,0 +1,210 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Edu QLD Beginner', cursive;    
+
+}
+
+body{
+    height: 100vh;
+    width :100vw; 
+}
+
+.navbar{
+    width: 100vw;  
+    justify-content: space-around;
+    justify-items: right; 
+    box-shadow: 0 1px 9px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #03447c;
+    
+}
+
+.libras{
+    position: fixed;
+    bottom: 20px;
+    right: 15px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    opacity : 0.8;
+    
+}
+
+.container{
+    display: flex;
+    padding: 10px;
+    justify-content:space-around;
+}
+
+.navbar-brand{
+    text-decoration: none;
+    font-size:20px ;
+    text-transform:uppercase;
+    font-family: Georgia, 'Times New Roman';
+    color: white;
+}
+
+.collapse a{
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 40px;
+    color: white;
+}
+
+.masthead{
+    margin: 150px 15% 1px 15%; 
+    position: relative;
+
+}
+
+.central{
+    display: flex;
+    justify-content:space-around;
+    text-align:center;
+    align-items: center;
+}
+
+.textos h3{
+    font-size: 35px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: 'Edu QLD Beginner', cursive;
+}
+
+.textos p {
+    font-size: 20px;
+    text-transform: lowercase;
+}
+
+.textos{
+    display: block;
+    width: 60%;
+    margin-bottom: 100px;
+    margin-right: 10px;
+}
+
+.containerImg{
+    width: 50%;
+    position: relative;
+}
+
+.cartaz{
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin: 150px 30px 150px 30px;
+}
+
+.img2{
+    position:static;
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+.card{
+    display: block;
+    width: 100%;
+}
+
+.card p{
+    text-align: center;
+}
+
+.headerSegundo{
+    display: flex;
+    justify-content:center;
+    align-items: center; 
+    width:60%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+
+.figura{
+    width: 30%;
+    padding: 10px;
+}
+
+h3{ 
+    text-align: center;
+}
+
+.agruparText{
+    border: none;
+    padding: 5.5px;
+    color: white;
+    background-color: #cf1d1d;
+    border-radius: 8px;  
+    padding: 10px;
+    font-size: 15px;
+    box-shadow: 0 1px 8px 0 rgba(220, 24, 24, 0.9), 0 6px 20px 0 rgba(239, 239, 239, 0.19);
+}
+
+.agruparText:hover{
+    cursor: pointer;
+}
+
+
+
+.formEscrever{
+    display: none; 
+    margin-top: 50px;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    width: 100%;
+    height: 500px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: auto;
+    width: 100%;
+    height: 500px;
+}
+
+.escrever{
+    display:inline-block;
+    color: white;
+}
+
+
+textarea{
+    border-radius: 20px;
+    margin: 20px 20px 10px 20px;
+    padding: 10px;
+    font-size: 15px;
+    resize: none;
+    display: block;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.escrever input{
+    background-color: rgb(26, 141, 203);
+    color: white;
+    margin-top: 50px ;
+}
+
+.btn-enviar{
+    width: 50%;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+footer{
+    background-color: #03447c;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 15px;
+    margin-top: 50px;
+    color: white;
+    text-align: center;
+}
+
